@@ -1,4 +1,8 @@
 //! Start by creating the variables for the data recorded
+let day1TempF = 32
+let day2TempC = 25
+let day3TempF = 70
+console.log(day1TempF)
 //* Then work on the conversion of the temperature from Celsius to Fahrenheit (or viceversa)
 
 
