@@ -64,13 +64,13 @@ let day27TempC = ((day27TempF - 32 ) * (5/9))
 let day29TempC = ((day29TempF - 32 ) * (5/9))
 
 //! Start the calculation of the total temperatures
-let tot_temperature_in_celsius = day1TempC + day2TempC + day3TempC + day5TempC + day6TempC + day7TempC + day8TempC + day9TempC + day10TempC + day11TempC + day12TempC + day13TempC + day14TempC + day15TempC + day16TempC + day17TempC + day18TempC + day19TempC + day20TempC + day21TempC + day22TempC + day23TempC + day24TempC + day25TempC + day26TempC + day27TempC + day28TempC + day29TempC + day30TempC
-let tot_temperature_in_fahrenheit = day1TempF + day2TempF + day3TempF + day4TempF + day5TempF + day6TempF + day7TempF + day8TempF + day9TempF + day10TempF + day12TempF + day13TempF + day14TempF + day15TempF + day16TempF + day17TempF + day18TempF + day19TempF + day20TempF + day21TempF + day22TempF + day23TempF + day24TempF + day25TempF + day26TempF + day27TempF + day28TempF + day29TempF + day30TempF
+let tot_temperature_in_celsius = day1TempC + day2TempC + day3TempC + day4TempC + day5TempC + day6TempC + day7TempC + day8TempC + day9TempC + day10TempC + day11TempC + day12TempC + day13TempC + day14TempC + day15TempC + day16TempC + day17TempC + day18TempC + day19TempC + day20TempC + day21TempC + day22TempC + day23TempC + day24TempC + day25TempC + day26TempC + day27TempC + day28TempC + day29TempC + day30TempC
+let tot_temperature_in_fahrenheit = day1TempF + day2TempF + day3TempF + day4TempF + day5TempF + day6TempF + day7TempF + day8TempF + day9TempF + day10TempF + day11TempF + day12TempF + day13TempF + day14TempF + day15TempF + day16TempF + day17TempF + day18TempF + day19TempF + day20TempF + day21TempF + day22TempF + day23TempF + day24TempF + day25TempF + day26TempF + day27TempF + day28TempF + day29TempF + day30TempF
 
 //* Then apply the conversion to calculate the total in the other unit of measurement
 //* Call the variables: tot_temperature_in_fahrenheit and tot_temperature_in_celsius
-console.log(tot_temperature_in_celsius)
-console.log(tot_temperature_in_fahrenheit)
+console.log("Total Celsius: ", tot_temperature_in_celsius)
+console.log("Total Fahrenheit: ", tot_temperature_in_fahrenheit)
 
 //! Start the calculation of the average temperatures
 //* Call the variables: avg_temperature_in_fahrenheit and avg_temperature_in_celsius
@@ -78,8 +78,8 @@ let avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30
 let avg_temperature_in_celsius = tot_temperature_in_celsius / 30
 
 //! Console.log the results for your own inspection if you'd like
-console.log(avg_temperature_in_fahrenheit)
-console.log(avg_temperature_in_celsius)
+console.log("Average Fahrenheit: ", avg_temperature_in_fahrenheit)
+console.log("Average Celsius: ", avg_temperature_in_celsius)
 
 //! After creating the four variables mentioned above, uncomment the following lines
 //* This way you can export them to the test file, this is essential for the tests to work
