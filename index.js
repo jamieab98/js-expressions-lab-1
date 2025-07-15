@@ -2,9 +2,36 @@
 let day1TempF = 32
 let day2TempC = 25
 let day3TempF = 70
-console.log(day1TempF)
+let day4TempC = 18
+let day5TempF = 80
+let day6TempC = 15
+let day7TempF = 72
+let day8TempC = 28
+let day9TempF = 68
+let day10TempC = 20
+let day11TempF = 75
+let day12TempC = 23
+let day13TempF = 82
+let day14TempC = 30
+let day15TempF = 65
+let day16TempC = 22
+let day17TempF = 77
+let day18TempC = 26
+let day19TempF = 78
+let day20TempC = 24
+let day21TempF = 73
+let day22TempC = 21
+let day23TempF = 79
+let day24TempC = 27
+let day25TempF = 71
+let day26TempC = 19
+let day27TempF = 74
+let day28TempC = 17
+let day29TempF = 76
+let day30TempC = 29
 //* Then work on the conversion of the temperature from Celsius to Fahrenheit (or viceversa)
-
+let day2TempF = (day2TempC * (9/5) + 32)
+console.log(day2TempF)
 
 //! Start the calculation of the total temperatures
 //* Then apply the conversion to calculate the total in the other unit of measurement
